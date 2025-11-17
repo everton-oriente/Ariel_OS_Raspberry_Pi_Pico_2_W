@@ -6,3 +6,6 @@ imports:
 
 apps:
   - name: blinky
+    selects:
+      - sw/threading
+      - multi-core
